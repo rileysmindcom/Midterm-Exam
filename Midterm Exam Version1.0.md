@@ -1,7 +1,7 @@
 Name: Riley Lidot
 Date: 10/13/25
 Class: CISC-191
-# Inventory control system - version 1.0 (10 marks)
+# Inventory control system - Version 1.0 
 You are creating a drug company's inventory control system. You visit each
 aisle and update the inventory based on the physical presence of each item
 on the shelf. The aisles are divided into sections.
@@ -16,7 +16,7 @@ The sections are: Painkillers, Bandages, Equipment
 1. Write a parent class, and three derived classes. In each class,
 the user should be able to update or display the items. Use at
 least one override and overload method.
-## My Solution Code:
+## My Solution Code for InventoryV1:
 
 ```
 import java.util.ArrayList;
@@ -86,11 +86,11 @@ item.display();
 }
 ```
 
-## 2. Inventory control system - version 2.0 (10 marks)
+## 2. Inventory control system - Version 2.0 
 You are enhancing version 1 of the inventory control system where
 you used pre-written derived exceptions by the Exception class on
 the user inputs. Catch any two possible invalid user inputs.
-## My Solution Code:
+## My Solution Code for InventoryV2:
 ```
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -117,11 +117,11 @@ sc.close();
 }
 }
 ```
-3. Inventory control system - version 3.0 (10 marks)
+## 3. Inventory control system - Version 3.0
 You are enhancing version 1 or 2 of the inventory control system
 where you used customized derived exception by the Exception class
 on the user input. Catch any one possible invalid user input.
-## My Solution Code:
+## My Solution Code for InventoryV3:
 ```
 class InvalidExpiryDateException extends Exception {
 public InvalidExpiryDateException(String message) {
